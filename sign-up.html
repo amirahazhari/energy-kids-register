@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="./css/style.css" rel="stylesheet" />
+        <style>
+        @font-face {
+            font-family: 'Happy School';
+            src: url('./Assets/fonts/HappySchool.ttf') format('truetype');
+            font-weight: 500;
+            font-style: normal;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="bg-color">
+            <div class="bg-register">
+                <div class="form-container">
+                    <div class="form-header">
+                        <h1 class="form-title">Cipta akaun anda</h1>
+                    </div>
+                    <form class="account-form">
+                        <div class="form-group">
+                            <label for="username">Nama Pengguna <span>ⓘ</span></label>
+                            <input type="text" id="username" placeholder="Taip nama pengguna anda">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="role">Anda adalah seorang...</label>
+                                <select id="role">
+                                    <option selected>Pilih peranan anda</option>
+                                    <option>Murid</option>
+                                    <option>Ibubapa</option>
+                                    <option>Guru</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="birthdate">Tarikh lahir</label>
+                                <input type="text" id="birthdate" placeholder="DD/MM/YYYY">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Alamat emel</label>
+                            <input type="email" id="email" placeholder="Taip alamat emel anda">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="password">Kata laluan</label>
+                                <div class="password-input">
+                                    <input type="password" id="password" placeholder="Taip kata laluan anda">
+                                    <span class="show-password">👁️</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirm-password">Sahkan kata laluan</label>
+                                <div class="password-input">
+                                    <input type="password" id="confirm-password" placeholder="Taip semula kata laluan anda">
+                                    <span class="show-password">👁️</span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="submit-btn-container">
+                    <button class="submit-btn">
+                        <a href="choosechar.html" class="link-btn">
+                            <span class="btn-text">Seterusnya</span>
+                        </a>
+                    </button>
+                </div>
+                <div class="info-paragraph">
+                    <p>Maklumat anda dikumpul dan digunakan mengikut Dasar Privasi kami untuk pendaftaran akaun dan penambahbaikan perkhidmatan. Kami komited melindungi privasi dan keselamatan data anda. Maklumat anda tidak akan dikongsi dengan pihak ketiga tanpa kebenaran anda kecuali jika dikehendaki oleh undang-undang.</p>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
+
+     
